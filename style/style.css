@@ -2,6 +2,16 @@
   z-index: 9999;
 }
 
+@font-face {
+  font-family: font1;
+  src: url("../fonts/Poppins/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: font2;
+  src: url("../fonts/Poppins/Poppins-ExtraBold.ttf");
+}
+
 .mr-1 {
   margin-right: 1rem;
 }
@@ -53,6 +63,21 @@
 @media screen and (max-width: 992px) and (min-width: 768px) {
   .card-body > img {
     display: block;
-    margin: 0 20px !important;
+    transition: 0.5s;
+    margin: 0 30px !important;
+  }
+  .card-body > img:hover {
+    transform: translateY(8px);
+  }
+}
+@media screen and (max-width: 767px) {
+  #top1 {
+    margin-top: 150px !important;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  #top1 {
+    margin-top: 270px !important;
   }
 }
