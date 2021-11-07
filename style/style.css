@@ -32,6 +32,11 @@
 .mt-6 {
   margin-top: 6rem !important;
 }
+
+.mb-6 {
+  margin-bottom: 6rem !important;
+}
+
 .cl-success {
   color: rgb(25, 135, 84);
 }
@@ -54,6 +59,14 @@
 /* products */
 .bg-img {
   background-image: url("../img/Bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 400px;
+}
+
+.bg-img1 {
+  background-image: url("../img/Bg1.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
