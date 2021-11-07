@@ -87,6 +87,9 @@
   #top1 {
     margin-top: 150px !important;
   }
+  #top2 {
+    margin-top: 160px !important;
+  }
 }
 
 @media screen and (max-width: 490px) {
