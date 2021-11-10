@@ -2,6 +2,10 @@
   z-index: 9999;
 }
 
+svg {
+  cursor: pointer;
+}
+
 @font-face {
   font-family: font1;
   src: url("../fonts/Poppins/Poppins-SemiBold.ttf");
@@ -21,6 +25,10 @@
   font-family: font3;
 }
 
+.b40 {
+  bottom: -40px;
+}
+
 .mr-1 {
   margin-right: 1rem;
 }
@@ -36,6 +44,14 @@
 
 .cl-1 {
   color: #22343d;
+}
+
+.cl-2 {
+  color: #737373;
+}
+
+.cl-3 {
+  color: #02897a;
 }
 
 .mt-6 {
