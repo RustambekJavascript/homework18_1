@@ -54,6 +54,29 @@ svg {
   color: #02897a;
 }
 
+.stb {
+  box-shadow: 0px 0px 10px #ddd;
+  transition: 2s;
+}
+
+.search {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.search:hover {
+  outline: none;
+  box-shadow: 0px 0px 15px #ddd;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #02897a;
+}
+
+.stb:hover {
+  background: linear-gradient(45deg, red, blue);
+  color: white !important;
+}
+
 .mt-6 {
   margin-top: 6rem !important;
 }
